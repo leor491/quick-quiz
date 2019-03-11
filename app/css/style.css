@@ -1,0 +1,26 @@
+.choices {
+	list-style-type: lower-alpha;
+	list-style-position: inside;
+}
+
+.pager {
+	list-style-type: none;
+	width: 100%;
+	padding-left: 0px;
+}
+
+ul.pager > li:first-child {
+	float: left;
+}
+
+ul.pager > li:last-child {
+	float: right;
+}
+
+.progress {
+	width: 100%;
+	min-width: 2em;
+	color: #fff;
+	background-color: #337ab7;
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+}
